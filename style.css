@@ -1,0 +1,125 @@
+body{
+    background-image: linear-gradient(white,rgb(85, 253, 150));
+}
+.container{
+    /* background-color: greenyellow; */
+    min-height: 700px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    /* background-color: rgb(2, 98, 2); */
+    min-height: 100px;
+    width: 1024px;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+}
+
+.cardrow1{
+
+    /* background-color: rgb(6, 36, 6); */
+    min-height: 300px;  
+    display: flex;  
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cardrow2{
+
+    /* background-color: rgb(38, 121, 38); */
+    min-height: 300px;  
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+.card1{
+    background-color: rgb(199, 1, 34);
+    min-height: 300px;
+    width: 30%;
+    }
+
+.card2{
+    background-color: rgb(199, 1, 34);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3{
+    background-color: rgb(199, 1, 34);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card4{
+    background-color: rgb(199, 1, 34);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card5{
+    background-color: rgb(199, 1, 34);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card6{
+    background-color: rgb(199, 1, 34);
+    min-height: 300px;
+    width: 30%;
+}
+
+.sec1{
+    background-color:#364F6B;
+    min-height: 150px;
+    align-items: center; 
+    justify-content: space-around;
+    display: flex;   
+}
+
+.sec2{
+    background-color: #FCE38A;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec3{
+    background-color: #FC5185;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+h1{
+    color: rgb(9, 26, 41);
+    
+}
+ :hover.sec3
+ {
+     opacity: .7;
+ }
+p{
+    color: black; 
+    font-weight: bolder;    
+}
+:hover.p{
+    color: rgb(0, 0, 31);
+}
+.link{
+    text-decoration: none;
+}
+.name4
+{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(9, 26, 41);
+}
+
