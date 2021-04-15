@@ -8,24 +8,46 @@
     <title>Project portal</title>
     <link rel="shortcut icon" href="./image/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rating.css">
 </head>
 
 <body>
 
     <div class="container">
+
         <header>
-            <img class="logo" src="./image/logo1.png" alt="Logo">
+           
+            <img class="logo" src="./image/logo2.png" alt="Logo">
+       
         </header>
 
-        <div class="cardrow1">
+        <nav class="navlinks">
+
+
+            <ul>
+                <a class="links" href="#project">
+                    <li>PROJECT</li>
+                </a>
+                <a class="links" href="#rating">
+                    <li>RATING</li>
+                </a>
+                <a class="links" href="#skill">
+                    <li>FEEDBACK</li>
+                </a>
+            </ul>
+
+
+        </nav>
+
+        <div id="project" class="cardrow1">
             <div class="card1">
                 <div class="sec1">
-                    <img class="akash" src="./image/akash.png" alt="image of akash" height="130px">
+                    <img class="borderimg" class="akash" src="./image/akash.png" alt="image of akash" height="130px">
                 </div>
                 <div class="sec2">
                     <h1>AKASH DAS</h1>
                 </div>
-                <a class="link" href="https://newhtmlburger.netlify.app" target="_blank">
+                <a class="link" href="https://akashcv.netlify.app/" target="_blank">
                     <div class="sec3">
                         <p class="p">VIEW PROJECT</p>
                     </div>
@@ -33,12 +55,12 @@
             </div>
             <div class="card2">
                 <div class="sec1">
-                    <img src="./image/payal.png" alt="payal_image" height="130px">
+                    <img class="borderimg" src="./image/payal.png" alt="payal_image" height="130px">
                 </div>
                 <div class="sec2">
                     <h1>PAYAL DAS</h1>
                 </div>
-                <a class="link" href="#" target="_blank">
+                <a class="link" href="https://chinesehub.netlify.app/" target="_blank">
                     <div class="sec3">
                         <p class="p">VIEW PROJECT</p>
                     </div>
@@ -46,12 +68,12 @@
             </div>
             <div class="card3">
                 <div class="sec1">
-                    <img src="./image/sahil.png" alt="image" height="130px">
+                    <img class="borderimg" src="./image/sahil.png" alt="image" height="130px">
                 </div>
                 <div class="sec2">
                     <h1>SAHIL PAUL</h1>
                 </div>
-                <a class="link" href="#" target="_blank">
+                <a class="link" href="https://sahilcv.netlify.app/" target="_blank">
                     <div class="sec3">
                         <p class="p">VIEW PROJECT</p>
                     </div>
@@ -62,12 +84,12 @@
         <div class="cardrow2">
             <div class="card4">
                 <div class="sec1">
-                    <img src="./image/reshab.png" alt="Reeshab_image" width="130px">
+                    <img class="borderimg" src="./image/reshab.png" alt="Reeshab_image" width="130px">
                 </div>
                 <div class="sec2">
                     <div class="name4">REESHAB BANERJEE</div>
                 </div>
-                <a class="link" href="#" target="_blank">
+                <a class="link" href="https://reeshabportfolio.netlify.app/" target="_blank">
                     <div class="sec3">
                         <p class="p">VIEW PROJECT</p>
                     </div>
@@ -75,12 +97,12 @@
             </div>
             <div class="card5">
                 <div class="sec1">
-                    <img src="./image/adesh.png" alt="adesh_image" width="130px">
+                    <img class="borderimg" src="./image/adesh.png" alt="adesh_image" width="130px">
                 </div>
                 <div class="sec2">
                     <div class="name4">ADESH KUMAR MUKHERJEE</div>
                 </div>
-                <a class="link" href="#" target="_blank">
+                <a class="link" href="https://adeshcv.netlify.app/" target="_blank">
                     <div class="sec3">
                         <p class="p">VIEW PROJECT</p>
                     </div>
@@ -88,12 +110,12 @@
             </div>
             <div class="card6">
                 <div class="sec1">
-                    <img src="./image/ankush.png" alt="ankush_image" width="130px">
+                    <img class="borderimg" src="./image/ankush.png" alt="ankush_image" width="130px">
                 </div>
                 <div class="sec2">
                     <div class="name4">ANKUSH TALUKDAR</div>
                 </div>
-                <a class="link" href="#" target="_blank">
+                <a class="link" href="https://ankushcv.netlify.app/" target="_blank">
                     <div class="sec3">
                         <p class="p">VIEW PROJECT</p>
                     </div>
@@ -101,7 +123,145 @@
             </div>
         </div>
 
+
+        <div id="rating" class="rating">
+            <!-- rating start -->
+
+            <div class="heading">
+                Rate Our Work
+            </div>
+
+            <div class="ratebody">
+                <div class="ratediv1">
+
+                    <div class="rate1">
+
+                        <div class="upper">
+
+                            <img class="dp" src="./image/akash.png" alt="AKASH" width="80px">
+
+                        </div>
+                        <div class="lower">
+
+                            <div class="rating-wrap">
+
+                                <input type="radio" name="rating" id="star1" d> <label for="star1"></label>
+                                <input type="radio" name="rating" id="star2"> <label for="star2"></label>
+                                <input type="radio" name="rating" id="star3"> <label for="star3"></label>
+                                <input type="radio" name="rating" id="star4"> <label for="star4"></label>
+                                <input type="radio" name="rating" id="star5"> <label for="star5"></label>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="rate2">
+
+                        <div class="upper">
+                            <img class="dp" src="./image/payal.png" alt="AKASH" width="80px">
+                        </div>
+                        <div class="lower">
+                            <div class="rating-wrap">
+
+                                <input type="radio" name="rating1" id="star10" d> <label for="star10"></label>
+                                <input type="radio" name="rating1" id="star20"> <label for="star20"></label>
+                                <input type="radio" name="rating1" id="star30"> <label for="star30"></label>
+                                <input type="radio" name="rating1" id="star40"> <label for="star40"></label>
+                                <input type="radio" name="rating1" id="star50"> <label for="star50"></label>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="ratediv2">
+
+                    <div class="rate3">
+                        <div class="upper">
+                            <img class="dp" src="./image/sahil.png" alt="AKASH" width="80px">
+                        </div>
+                        <div class="lower">
+                            <div class="rating-wrap">
+
+                                <input type="radio" name="rating2" id="star12" d> <label for="star12"></label>
+                                <input type="radio" name="rating2" id="star22"> <label for="star22"></label>
+                                <input type="radio" name="rating2" id="star32"> <label for="star32"></label>
+                                <input type="radio" name="rating2" id="star42"> <label for="star42"></label>
+                                <input type="radio" name="rating2" id="star52"> <label for="star52"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate4">
+                        <div class="upper">
+                            <img class="dp" src="./image/reshab.png" alt="AKASH" width="80px">
+                        </div>
+                        <div class="lower">
+                            <div class="rating-wrap">
+
+                                <input type="radio" name="rating3" id="star11"> <label for="star11"></label>
+                                <input type="radio" name="rating3" id="star21"> <label for="star21"></label>
+                                <input type="radio" name="rating3" id="star31"> <label for="star31"></label>
+                                <input type="radio" name="rating3" id="star41"> <label for="star41"></label>
+                                <input type="radio" name="rating3" id="star51"> <label for="star51"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ratediv3">
+
+                    <div class="rate5">
+                        <div class="upper">
+                            <img class="dp" src="./image/adesh.png" alt="AKASH" width="80px">
+                        </div>
+                        <div class="lower">
+                            <div class="rating-wrap">
+
+                                <input type="radio" name="rating4" id="star13" d> <label for="star13"></label>
+                                <input type="radio" name="rating4" id="star23"> <label for="star23"></label>
+                                <input type="radio" name="rating4" id="star33"> <label for="star33"></label>
+                                <input type="radio" name="rating4" id="star43"> <label for="star43"></label>
+                                <input type="radio" name="rating4" id="star53"> <label for="star53"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate6">
+                        <div class="upper">
+                            <img class="dp" src="./image/ankush.png" alt="AKASH" width="80px">
+                        </div>
+                        <div class="lower">
+                            <div class="rating-wrap">
+
+                                <input type="radio" name="rating5" id="star14" d> <label for="star14"></label>
+                                <input type="radio" name="rating5" id="star24"> <label for="star24"></label>
+                                <input type="radio" name="rating5" id="star34"> <label for="star34"></label>
+                                <input type="radio" name="rating5" id="star44"> <label for="star44"></label>
+                                <input type="radio" name="rating5" id="star54"> <label for="star54"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- rating end -->
+
+
     </div>
+    <!-- container end -->
+
 </body>
 
 </html>

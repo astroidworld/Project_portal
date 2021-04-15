@@ -1,12 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-image: linear-gradient(white,rgb(85, 253, 150));
+    /* background-image: linear-gradient(white,rgb(85, 253, 150)); */
+    animation: sample 3s alternate;
+    animation-iteration-count: infinite;
+    
+   
+}
+@keyframes sample{
+    0% {background-color: rgb(153, 248, 251);}
+    25%{background-color: rgb(85, 253, 150);}
+    75%{background-color: rgb(107, 248, 82)
+        ;}
+    100%{background-color: rgb(67, 255, 155);}
 }
 .container{
     /* background-color: greenyellow; */
     min-height: 700px;
     width: 1024px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;    
 }
 
 header{
@@ -16,6 +30,66 @@ header{
     align-items: center;
     text-align: center;
 }
+
+
+/* nav{
+    height: 40px;
+    width: 1024px;
+    background-color: #FC5185;  
+    position: sticky;
+    top: 1px;      
+} */
+
+nav{
+    background-color: rgba(2, 2, 2, 0.774);
+    min-height: 10px;
+    width: 1024px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    
+      
+       
+}
+.navlinks{
+    flex: 1;
+}
+.navlinks ul{
+margin-left: 30px;
+display: inline;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 25px;
+
+}
+.navlinks ul a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navlinks ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #FCE38A;
+    display: block;
+    margin: auto;
+    transition: .3s;
+    }
+    .navlinks ul li:hover:after{
+    width: 100%;
+    }
+
+
+
 .logo{
     height: 100px;
     width: 200px;
@@ -27,7 +101,7 @@ header{
     min-height: 300px;  
     display: flex;  
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 45px;
     padding-bottom: 10px;
 }
 .cardrow2{
@@ -40,75 +114,144 @@ header{
     padding-bottom: 20px;
 }
 .card1{
-    background-color: rgb(199, 1, 34);
+    /* background-color: rgb(199, 1, 34); */
     min-height: 300px;
     width: 30%;
+    border: 5px double black;
+    box-shadow: -4px 4px 7px 2px black;
     }
 
 .card2{
-    background-color: rgb(199, 1, 34);
+    /* background-color: rgb(199, 1, 34); */
     min-height: 300px;
     width: 30%;
+    border: 5px double black;
+    box-shadow: -4px 4px 7px 2px black;
 }
 
 .card3{
-    background-color: rgb(199, 1, 34);
+    /* background-color: rgb(199, 1, 34); */
     min-height: 300px;
     width: 30%;
+    border: 5px double black;
+    box-shadow: -4px 4px 7px 2px black;
 }
 
 .card4{
-    background-color: rgb(199, 1, 34);
+    /* background-color: rgb(199, 1, 34); */
     min-height: 300px;
     width: 30%;
+    border: 5px double black;
+    box-shadow: -4px 4px 7px 2px black;
 }
 
 .card5{
-    background-color: rgb(199, 1, 34);
+    /* background-color: rgb(199, 1, 34); */
     min-height: 300px;
     width: 30%;
+    border: 5px double black;
+    box-shadow: -4px 4px 7px 2px black;
 }
 
 .card6{
-    background-color: rgb(199, 1, 34);
+    /* background-color: rgb(199, 1, 34); */
     min-height: 300px;
     width: 30%;
+    border: 5px double black;
+    box-shadow: -4px 4px 7px 2px black;
 }
 
 .sec1{
     background-color:#364F6B;
     min-height: 150px;
-    align-items: center; 
+    align-items: center;
+    border-bottom: 2px solid black; 
+    border-left: 1px solid black;
     justify-content: space-around;
-    display: flex;   
+    display: flex; 
+    background-image: url("./image/background.png");  
+    
 }
-
+/* :hover.sec1{
+    opacity: 0.9;
+} */
+.borderimg{
+    border: 7px double black;
+    border-radius: 150px;
+}
+.borderimg:hover{
+    animation: glow1 1s ease-in-out infinite alternate;
+    cursor: pointer;    
+}
+@-webkit-keyframes glow1 {
+    from {
+        -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073;
+      }
+      
+      /* to {
+        -webkit-box-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 40px #ff4da6, 0 0 40px #ff4da6, 0 0 60px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+      } */
+  }
 .sec2{
     background-color: #FCE38A;
     min-height: 100px;
+    border-bottom: 2px solid black; 
+    border-left: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+        
 }
+
 .sec3{
-    background-color: #FC5185;
+    background-color: #fa306c;
     min-height: 50px;
+    border-bottom: 1px solid black; 
+    border-left: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     }
 h1{
     color: rgb(9, 26, 41);
-    
+    animation: type 3s steps(15);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid black;
+    width:15ch;
+    word-spacing: -10px;    
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate ;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
 }
- :hover.sec3
- {
-     opacity: .7;
- }
+@keyframes type{
+    0%{
+        width:0ch
+    }
+    100%{
+        width: 15ch;
+    }
+}
+ 
 p{
     color: black; 
-    font-weight: bolder;    
+    font-weight: bolder; 
+    font-size: 20px;   
+}
+.p::after{
+content:'';
+width: 0%;
+height: 4px;
+background: #FCE38A;
+display: block;
+margin: auto;
+transition: .3s;
+}
+.p:hover:after{
+width: 100%;
 }
 :hover.p{
     color: rgb(0, 0, 31);
@@ -121,5 +264,27 @@ p{
     font-size: 25px;
     font-weight: bolder;
     color: rgb(9, 26, 41);
+
+    color: rgb(9, 26, 41);
+    animation: type1 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid black;
+    width:22ch;
+    word-spacing: -10px;    
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate ;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.815);
+}
+
+@keyframes type1{
+    0%{
+        width:0ch
+    }
+    100%{
+        width: 22ch;
+    }
 }
 
