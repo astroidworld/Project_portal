@@ -213,7 +213,7 @@ display: inline;
     justify-content: center;
     align-items: center;
     }
-h1{
+.h12{
     color: rgb(9, 26, 41);
     animation: type 3s steps(15);
     overflow: hidden;
